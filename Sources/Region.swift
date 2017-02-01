@@ -20,6 +20,7 @@ public enum Region: String {
     case apNortheast1 = "ap-northeast-1"
     case apNortheast2 = "ap-northeast-2"
     case saEast1 = "sa-east-1"
+    case usStandard = "us-standard"
     
     
    public var host: String {
@@ -36,6 +37,7 @@ public enum Region: String {
         case .apNortheast1: return "s3-ap-northeast-1.amazonaws.com"
         case .apNortheast2: return "s3.ap-northeast-2.amazonaws.com"
         case .saEast1: return "s3-sa-east-1.amazonaws.com"
+        case .usStandard: return "s3-api.us-geo.objectstorage.softlayer.net"
         
         }
     }
